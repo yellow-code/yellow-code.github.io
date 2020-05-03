@@ -20,8 +20,7 @@ body {
   position: absolute;
   top: 64px;
   left: 64px;
-  height: 64px;
-  width: auto;
+  width: 128px;
 }
 
 .title {
@@ -33,12 +32,18 @@ body {
   align-items: center;
 }
 .title img {
-  width: 600px;
+  width: 50%;
 }
 .title p {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+  .logo {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
